@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6e0c5830-8b42-46ed-a8c9-020d0e093bea"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Logout"
+	namespace="Demowebshop.Steps">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="cf26fb67-3738-4760-9a0d-eaf360a5cfca"
+	name="DemowebshopRepository"
+	relativepath="..\DemowebshopRepository.rxrep">
+		<codegen
+		classname="DemowebshopRepository"
+		namespace="Demowebshop">
+		</codegen>
+		<rootfolder
+		id="3f7a4a6f-7184-4bac-b134-e85ed6b7c268"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Logout.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="bac400bc-7bd6-441e-b86d-801c7fdd7b1f"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="Demowebshop.Steps">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="af2e632f-209a-4ece-af3b-158f4b2ef189">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="42068ff3-7bb1-47ce-bdf7-38cb1f6efcfa"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="cf26fb67-3738-4760-9a0d-eaf360a5cfca"
+	name="DemowebshopRepository"
+	relativepath="..\DemowebshopRepository.rxrep">
+		<codegen
+		classname="DemowebshopRepository"
+		namespace="Demowebshop">
+		</codegen>
+		<rootfolder
+		id="3f7a4a6f-7184-4bac-b134-e85ed6b7c268"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

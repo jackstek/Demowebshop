@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2ab210e2-b94b-4d13-bbae-261e3da24cfc"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="LoginCheck"
+	namespace="Demowebshop.Steps">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="Exists"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="b0dfe709-c60b-4d81-999e-5777589d0fe2">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6e34a755-a833-49e1-b34b-3601fe4aed0e"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="1184,141,43,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						ico-login
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Log in
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						ico-login
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						http://demowebshop.tricentis.com/login
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[1]/div[2]/?/?/ul/?/?/a[@innertext='Log in']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="43b769e6-3206-4c35-9d6a-d5aa809c2014">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA7AKgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAJCgk9Byahju4ZWVVLgt93
+dGyg/QkVJKCYnA5O01ShhljNqZGkkQL90gfu2x14HTqOaRSSaL9ISBjOeTjgZrKignCtw3m+WRJt
+iK7j7tn5j1wR+lSxKhmPkRMiCRDt24xwe3alcpwS6mg7rGpZjgClrLEA+zyr5BYYBJMRDHB7/wB4
++4pyRP8AbQxBB8wkERHO3HA3Zxj2p31FyruaVZmrtL59pHFM8XmMVJUkdxVuxiEVqg2bWIy3GCT7
+1U1X/j+0/wD66f1WlL4TKpsH9mXX/QSm/X/Gmrp9wzsg1ObcuMjB4/WtWqqyCK8m3rJh9uCI2I6e
+oFLlQKmmVv7Muv8AoJTfr/jR/Zl1/wBBKb9f8aPKk8w+VGy3G6QtIVOCpzt57/w8dsVLZCMXLCKM
+xjylyCu3nJ7f1o5UU6MUiEabcnONSn4OOQw/rUcST22sQQPdSTKyljuJx0PbPtVn7OJZwJYtybpD
+hhx2xVWIMNVsA4IYW4yD16NSts/QicFGzXc2aKKK0LIftUPmbNxzu252nbn0z0zUiOsi7kORkj8Q
+cGqLKRIVjSUEyZMTJujPOd2SOPXg9e1IluygOiFZS8o3YwcEtjPt0pX0NHFGjRWS0YED+XDJGm1A
+4IKktuH5n3pzpGHj/csLczcJsPI2HPy9cZ7YouHIaeRuxznGelFZvkyGIqY2CkDaMHhd+QPwFFVF
+XJaSNOiiikSIyq6lWAZTwQRkGkjjSJdsaKi+ijAp1FABRRRQAVmar/x/af8A9dP6rWnVa9sYr3Z5
+rONmcbSO/wD+qpkromSbWhZqFrS2dizW8TMeSSgJNUv7Ctf+ek35j/Cj+wrX/npN+Y/wou+wKU1s
+vxLq2lsjbkt4lPqEApfstvs2fZ4tmc7dgxn1qj/YVr/z0m/Mf4Uf2Fa/89JvzH+FLXsHPP8Aplz7
+Faf8+sP/AH7FUZESPX7VI1VVEZwFGAPvU7+wrX/npN+Y/wAKlttJgtp1mR5Cy5wGIx0x6UNN9BNz
+la5eoooqywooooARlDDDAEehoKgkEgEg5GR0paKACiiigBuaM07A9BRgegoAbmjNOwPQUYHoKAG5
+ozTsD0FGB6CgBuaM07A9BRgegoAbmjNOwPQUYHoKAG5ozTsD0FGB6CgBuaM07A9BRgegoAbmjNOw
+PQUYHoKAG5ozTsD0FGB6CgBuaM07A9BRgegoAbminYHoKKAP/9k=
+			</helperscreenshot>
+			<matchname>
+			</matchname>
+			<matchvalue>
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="cf26fb67-3738-4760-9a0d-eaf360a5cfca"
+	name="DemowebshopRepository"
+	relativepath="..\DemowebshopRepository.rxrep">
+		<codegen
+		classname="DemowebshopRepository"
+		namespace="Demowebshop">
+		</codegen>
+		<rootfolder
+		id="3f7a4a6f-7184-4bac-b134-e85ed6b7c268"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		LoginCheck.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

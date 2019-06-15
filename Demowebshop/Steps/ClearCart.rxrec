@@ -1,0 +1,608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="35558628-7aca-4683-ab88-57db9a5a128d"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ClearCart"
+	namespace="Demowebshop.Steps">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="37;7"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="8ace5aa9-786c-479c-8637-938868adcd92"
+		sx="1016"
+		sy="215"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9c8ed9bd-3ad1-41d7-a05c-d44ff70a5720"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="979,208,74,14"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						cart-label
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Shopping cart
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						cart-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='demowebshop.tricentis.com']//li[#'topcartlink']/?/?/span[@innertext='Shopping cart']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="b983da4b-0425-480f-8cc5-d89ef62e7577">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA7AMADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKrX/wDx7r/10T/0
+IU65Z/NiiSQx785YAZ4HTn/PFA0ieis37TM8LSecEKRhuAMOSSM89uOKtXTFZIMY5c9Rn+E0rj5W
+WKKqWjzFk82UvviDkYAwfbFW6YmrBWPb3+pXKF4beFlBxnpz+JrYrD0yPzbML8jHzifLkHyv8o/z
+3qJbo3o2UJSavt+pZ8/WP+fWH8//ALKjz9Y/59Yfz/8AsqcikyRRxsYirODtIYL04XI6fhSG6naI
+v5oUxwrJgKPnJz/h29aLeZXP/dX4/wCYnn6x/wA+sP5//ZUefrH/AD6w/n/9lUvny+a7eZwsyx+X
+gdCB7Z75/CoJbiVbNpGlEm+KQlSowNv+ec+tFvMXP/dX4jvP1j/n1h/P/wCyo8/WP+fWH8//ALKn
+xXE8kjOS8YWYR+Uyr0Kg9vr60+3mleWEtLkSqzFCB8uCOKLeYvaL+VfiQ+frH/PrD+f/ANlR5+sf
+8+sP5/8A2VWmdjcP++8pYyowQMNn1/kKrfaptzEO5VonZSyqBx0IA5/Ok1bqNTv9lfiRzXmqQRGS
+W2hVF6nOf/Zq0reQy20UjYBdAxx7isq/VxFcF5WcmGMnIH98+gqxFFHLBbCNB5wSMmTHKAAd/f09
+6aunYc1GUE7Ja9PQ0aKii+W4lQfd4b8TnP8AKpas5WFFFU7oYmKjP79Nh59/8CfyoGlcuUVnMCFI
+I/1A2DPPVv8AAD86dLJIVnDuxUq4UDaUOPQjnPrn3pXK5S25hkQpJ5bqeobBFM8q0EZj8uDYTkrt
+GM/SpaKZN2V5oIJnVnkGFGAo2/zxkfganLRNjcUOOmSOKWigLsQGFcYKDAwMY4HpS+Yn99fzoooE
+HmJ/fX865y0uoI7VoZzLgvu2qiMDwP7w9q6Oipkrm1OooJpq9zFXUbZAoWW6ULwuI4uPpxTTfWhK
+Ze5Oz7uYovl+nHFblFLlfcv2tP8Al/H/AIBjnUrLz/OVZ1fdkkIhz04yeccdqr3F5afZp1hNwpeM
+rjZHzx3OM10FZlzA0t1NFLLLGs4xC4clfu4Klemep/8A1Ucr7i9pTt8P4/8AAEmjuHvZBBcmIPcB
+ceWrAYiBzyPaqsF2bdt94WEs0ayI8CqMBvUEdeOpzXQVVTH9pTgdoYx9OXqmrmMJJPXYzG1C2aRX
+aS6Lr0YxxZH6UgvrRSSGuRuznEUXOevatyip5X3N/a0/5fx/4Bz93ewTQMqvOzkADeiAYyD1AzWh
+BaQSQQytKFfy0/gjOMAdypNaFFCjrdkyrJx5Yqw1DGhYiQEsckkineYn99fzooqzAPMT++v50haJ
+iCShKnIyRxS0UAN/cnd/q/mOT05pNttuZtsW5xhjgZP1p9FAXCiiigAooooAKKKKACiimuoddpyB
+7Eg/pQA6iqUeVjt2DuS8mGy5OeD61doAKiubeO5i8uQHrlWHBU9iD61LRQBTU6mkZUi1kYcByzLn
+3Ix/WpLS2MHmNJJ5ssjbnfbjPoPoP8asUUAFFZ8Ujm8GXY7pHUjPGB04qxdEoqspILSKDz2zQBYo
+oooAKKgtmZvOLEnEhAz2FCs3211yduxTj3yaAJ6KQDHTPryaWgAooooA/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="7;4"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="428a9191-02bd-422e-bd38-7b8ce5990d0b"
+		sx="262"
+		sy="488"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="62af6723-6aa0-4a51-8985-39e1c3889338"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="255,484,13,13"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						854110
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						removefromcart
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						checkbox
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						854110
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']/table/tbody/tr[1]/td[1]/input[@name='removefromcart']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="15b6d65f-c505-4ac5-8f50-30a5cc47836c">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABOAE4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKZNKkERklbai9TjNA0m3ZD6Kpf2tY/89//ABxv8KP7Wsf+
+e/8A443+FLmXcv2NT+V/cXaKZDKk8QkibcjdDjFPpkNNOzCiiigQUUUUAFUtY/5Bk3/Af/QhV2qW
+sf8AIMm/4D/6EKUtmaUf4kfVFeztreS0iZ4ULFRk4qKJ7K5tJnggVCIWYq6AMvGQfxByDU1pNHHa
+xL50H3R1lAIpFsftOk2rwv5VwLZVD9mUryreo/l1pJJouUpRnd33LGj/APIMh/4F/wChGrtUNGcf
+YhA3yzQkrJGeqkkkfh71fprYzqNOba7hRRRTICiiigApk0STxGOVdyN1GcU+igabTuil/ZNj/wA8
+P/H2/wAaphr23s4ROPs9siLA+GG8ZGN+c8YOMfia2aKSSWw5TlL4ncoaOim0WbJaVxsdzKX3bSRk
+E9jyfxq/RRTJCiiigAooooAKKKKACiiigAooooAKKKKAP//Z
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="8;6"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="5fb88c8e-9e96-47d4-9872-a55d7844a732"
+		sx="263"
+		sy="602"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6d12a458-7484-4028-afc5-79cde43c8c60"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="255,596,13,13"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						854111
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						removefromcart
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						checkbox
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						854111
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']/table/tbody/tr[2]/td[1]/input[@name='removefromcart']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="21716066-ffe4-4e84-a62b-63224d1aec02">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABOAE4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKZNKkERklbai9TjNA0m3ZD6Kpf2tY/89//ABxv8KP7Wsf+
+e/8A443+FLmXcv2NT+V/cXaKZDKk8QkibcjdDjFPpkNNOzCiiigQUUUUAFUtY/5Bk3/Af/QhV2qW
+sf8AIMm/4D/6EKUtmaUf4kfVFeztreS0iZ4ULFRk4pZIrQw3HkxxHbG+SADtYfyPNFpNHHaxL50H
+3R1lAIqBLN5LOS5siondpVdc/LKpdu/r6H+lJJNFuUozu77l7R/+QZD/AMC/9CNXao6KwbTIwOGU
+srKeqnJ4I7Gr1OOyIqtOcmu4UUUUzMKKKKACmTRJPEY5V3I3UZxT6KBptO6KX9k2P/PD/wAfb/Gq
+tvfw2UXkIhZY5nEjA8QqZCBkn8OPTJrXpssayxPHIMo6lWHqDSSSHKcpfE7mfpqSy3Mt1M0ayjMU
+scaMoJBGCSTzx0OOhrSqOC3jt1YRhvmO4lmLEnAHUn0AqSmSFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAf//Z
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="64;7"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="190bc16d-8273-4298-b4fd-f0ca6b07f293"
+		sx="305"
+		sy="675"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b222fb55-be7d-44d8-8d64-ccf3d6896654"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="241,668,139,22"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						button-2 update-cart-button
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						button-2 update-cart-button
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Update shopping cart
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						updatecart
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						submit
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Update shopping cart
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']/div[1]/?/?/input[@name='updatecart']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="a6e1ef9e-d06d-492a-b993-c34f7fee63f0">
+				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
+KACiiigAooooAKKKKACiiigAooooAKKKKAP/2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="cf26fb67-3738-4760-9a0d-eaf360a5cfca"
+	name="DemowebshopRepository"
+	relativepath="..\DemowebshopRepository.rxrep">
+		<codegen
+		classname="DemowebshopRepository"
+		namespace="Demowebshop">
+		</codegen>
+		<rootfolder
+		id="3f7a4a6f-7184-4bac-b134-e85ed6b7c268"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ClearCart.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

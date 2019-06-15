@@ -1,0 +1,385 @@
+﻿<repository
+id="cf26fb67-3738-4760-9a0d-eaf360a5cfca"
+name="DemowebshopRepository">
+	<codegen
+	classname="DemowebshopRepository"
+	namespace="Demowebshop">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="3f7a4a6f-7184-4bac-b134-e85ed6b7c268"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="42068ff3-7bb1-47ce-bdf7-38cb1f6efcfa"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="d0aaca1c-cdb9-4b75-90ce-05413b30137a"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="6e34a755-a833-49e1-b34b-3601fe4aed0e"
+			name="LogIn"
+			refimgid="4f5bb310-cc8d-4845-ba46-d2875e371ee8"
+			refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[1]/div[2]/div[1]/ul/li[2]/a[@innertext='Log in']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[1]/div[2]/?/?/ul/?/?/a[@innertext='Log in']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="18beb61a-3cd9-49a0-b3d7-1e26a1060879"
+			name="Submit"
+			refimgid="64adb979-1bde-4cf9-81a1-621d9106c4e3"
+			refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]/div[2]/div[2]/form/div[5]/input[@type='submit']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]//form[@action='http://demowebshop.tricentis.com/login']/div[5]/input[@type='submit']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="1db8f720-39cf-4fb5-b7f7-3cb546a48a0e"
+			name="TricentisDemoWebShop"
+			refimgid="eb4a7616-b537-4de8-90bd-cd2bb67dfa9c"
+			refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[1]/div[1]/a/img[@title='']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[1]/div[1]/?/?/img[@title='']
+			</item>
+			<item
+			addcaps="unknown,webelement,bodytag"
+			capname="bodytag"
+			id="3b942789-3d25-4c93-9051-7877bdfcd77a"
+			name="SomeBodyTag"
+			refimgid="62f542f1-af6c-463c-93b1-623e982f4ff2"
+			refpath="/dom[@domain='demowebshop.tricentis.com']/body"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="70fb6e45-a9f4-4006-be80-8487c7a66c5e"
+			name="Email"
+			refimgid="b42a6809-5967-471f-995f-5bdd5cae6a76"
+			refpath="/dom[@domain='demowebshop.tricentis.com']//input[#'Email']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']//input[#'Email']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="324e970a-c73d-435d-92d4-2e56b2711bf9"
+			name="Password"
+			refimgid="0007c849-4f08-43ee-8c3e-c797dc93537c"
+			refpath="/dom[@domain='demowebshop.tricentis.com']//input[#'Password']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']//input[#'Password']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="098115bb-6c38-4f8e-a03c-9e75b87ae220"
+			name="LogOut"
+			refimgid="09d64f73-fa9a-447c-ae27-49d83e27cd1d"
+			refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[1]/div[2]/div[1]/ul/li[2]/a[@innertext='Log out']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[1]/div[2]/?/?/ul/?/?/a[@innertext='Log out']
+			</item>
+			<item
+			addcaps="unknown,webelement,tdtag"
+			capname="tdtag"
+			id="2e0eeaaf-5abf-47b5-883d-b398a992a7fc"
+			name="RemoveFromCart"
+			refimgid="9782fbf9-ee06-46b8-b640-d4c876c38517"
+			refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form[@action='http://demowebshop.tricentis.com/cart']/table/tbody/tr[1]/td[1]"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']/table/tbody/tr[1]/td[1]
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="9c8ed9bd-3ad1-41d7-a05c-d44ff70a5720"
+			name="ShoppingCart"
+			refimgid="2b8eca4c-8c6f-41ed-a152-e5b4c0741bdc"
+			refpath="/dom[@domain='demowebshop.tricentis.com']//li[#'topcartlink']/a/span[@innertext='Shopping cart']"
+			searchtimeout="30000ms">
+				/dom[@domain='demowebshop.tricentis.com']//li[#'topcartlink']/?/?/span[@innertext='Shopping cart']
+			</item>
+			<folder
+			addcaps="unknown,webelement,formtag"
+			capname="form"
+			id="206896c2-5013-44e9-bbeb-e4bfbeabce2f"
+			isrooted="True"
+			name="HttpDemowebshopTricentisComCart"
+			refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form[@action='http://demowebshop.tricentis.com/cart']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="b222fb55-be7d-44d8-8d64-ccf3d6896654"
+				name="Updatecart"
+				refimgid="230c357f-ef4f-43d9-8933-aa3465e3bef4"
+				refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/div[1]/div/input[@name='updatecart']"
+				searchtimeout="30000ms">
+					/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']/div[1]/?/?/input[@name='updatecart']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="62af6723-6aa0-4a51-8985-39e1c3889338"
+				name="Removefromcart1"
+				refimgid="651d7e27-4fff-4788-a3f9-ef3a81ca2451"
+				refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/table/tbody/tr[1]/td[1]/input[@name='removefromcart']"
+				searchtimeout="30000ms">
+					/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']/table/tbody/tr[1]/td[1]/input[@name='removefromcart']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="6d12a458-7484-4028-afc5-79cde43c8c60"
+				name="Removefromcart2"
+				refimgid="d70bddcc-3c57-4dea-888f-bf3a15be9c73"
+				refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/table/tbody/tr[2]/td[1]/input[@name='removefromcart']"
+				searchtimeout="30000ms">
+					/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']/table/tbody/tr[2]/td[1]/input[@name='removefromcart']
+				</item>
+				<basepath>
+					/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//form[@action='http://demowebshop.tricentis.com/cart']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='demowebshop.tricentis.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="618d3f13-2ad7-4951-a2e3-7e9bd0badc2b"
+		isrooted="True"
+		name="SchakelenTussenTaken"
+		refimgid="51389f73-c892-4be2-9d5f-50abe0f08d6a"
+		refpath="/form[@title='Schakelen tussen taken']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title='Schakelen tussen taken']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACCSURBVDhPY6AY/L5gf+H3RYf/6PjXBfsN/8/b
+C0CV4QYgxVZbn/1HBnCDgIYTNASuGA3/ueL1/9+Dyv//n0/Gif89m3yBAZsEKXi4GbD1yiZwjODD
+IDXIelAMwKYBG0bWQzsDkMXxyVFuACg1EVKESw6cEpEBsiKoEBzgk6MAMDAAAHhShcghofWfAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="7eac6dfd-d751-4ea9-b4f9-37931cbf2c84"
+		isrooted="True"
+		name="DemoWebShopLoginGoogleChrome"
+		refpath="/form[@title='Demo Web Shop. Login - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="09fbe63d-fc74-4be1-ad78-d42e7408de0e"
+			name="Pane"
+			refimgid="0c0948c0-8516-4a6e-bb38-6a0c11256c13"
+			refpath="/form[@title>'Demo Web Shop. Login - Google']/container/container/container[2]/container[1]"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Demo Web Shop. Login - Google']/container[@accessiblename&gt;'Demo Web Shop. Login - Google']/container/container[2]/container[1]
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="9caa0e30-c7fb-46e6-b4c2-8100816aedb8"
+			name="Pane1"
+			refimgid="d593bf9b-64d7-41c1-9c58-f24da20963b2"
+			refpath="/form[@title>'Tweakers - Wij stellen technologie']/container/container/container[2]/container[1]"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Demo Web Shop. Login - Google']/container[@accessiblename&gt;'Tweakers - Wij stellen technologie']/container/container[2]/container[1]
+			</item>
+			<basepath>
+				/form[@title&gt;'Demo Web Shop. Login - Google']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="dad31388-7c8a-40fa-914e-b40366e92f82"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="3cfa381e-ccb4-4f23-aeda-23649cce355b"
+			name="GoogleChrome1ActiefVenster"
+			refimgid="e1e39429-1e20-4a4b-8eac-c1285112c4cc"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename>'Google Chrome - 1 actief']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Actieve toepassingen']/button[@accessiblename&gt;'Google Chrome - 1 actief']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="8815b01d-752b-4a64-935e-bd75754b375b"
+			name="RanorexStudio1ActiefVenster"
+			refimgid="8752a36c-ea74-4a71-b1ef-edaac4fa3570"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename>'RanorexStudio - 1 actief']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Actieve toepassingen']/button[@accessiblename&gt;'RanorexStudio - 1 actief']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="c0751787-7b59-48a0-bffa-f0fc77686f4a"
+			name="GoogleChrome"
+			refimgid="09255aa2-47ff-47f4-b090-0eb6f5ae3fc7"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename='Google Chrome']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Actieve toepassingen']/button[@accessiblename='Google Chrome']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="73123d86-2954-4a17-a276-c1eecd4231a8"
+		isrooted="True"
+		name="DemoWebShopShoppingCartGoogleCh"
+		refpath="/form[@title='Demo Web Shop. Shopping Cart - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="9dac2707-0895-42fc-8070-36ccf204546f"
+			name="Pane"
+			refimgid="1d3aba6c-22b1-4f9a-8331-d81b99e4b055"
+			refpath="/form[@title>'Demo Web Shop. Shopping Cart']/container/container/container[2]/container[1]/container/container[1]/container[2]"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Demo Web Shop. Shopping Cart']/container[@accessiblename&gt;'Demo Web Shop. Shopping Cart']/container[@accessiblename='Google Chrome']/container[2]/container[1]/container[@accessiblerole='Pane']/container[1]/container[2]
+			</item>
+			<basepath>
+				/form[@title&gt;'Demo Web Shop. Shopping Cart']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
