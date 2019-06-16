@@ -1,0 +1,6 @@
+C:\Users\bobva\documents\visual studio 2015\Projects\Avans-DH12\Avans-DH12\bin\Release\Avans-DH12.exe.config
+C:\Users\bobva\documents\visual studio 2015\Projects\Avans-DH12\Avans-DH12\bin\Release\Avans-DH12.exe
+C:\Users\bobva\documents\visual studio 2015\Projects\Avans-DH12\Avans-DH12\bin\Release\Avans-DH12.pdb
+C:\Users\bobva\documents\visual studio 2015\Projects\Avans-DH12\Avans-DH12\obj\Release\Avans-DH12.csprojResolveAssemblyReference.cache
+C:\Users\bobva\documents\visual studio 2015\Projects\Avans-DH12\Avans-DH12\obj\Release\Avans-DH12.exe
+C:\Users\bobva\documents\visual studio 2015\Projects\Avans-DH12\Avans-DH12\obj\Release\Avans-DH12.pdb

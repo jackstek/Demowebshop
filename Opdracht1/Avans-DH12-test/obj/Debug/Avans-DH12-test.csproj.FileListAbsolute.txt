@@ -1,0 +1,9 @@
+c:\users\bobva\documents\visual studio 2015\Projects\Avans-DH12\Avans-DH12-test\bin\Debug\Avans-DH12-test.dll
+c:\users\bobva\documents\visual studio 2015\Projects\Avans-DH12\Avans-DH12-test\bin\Debug\Avans-DH12-test.pdb
+c:\users\bobva\documents\visual studio 2015\Projects\Avans-DH12\Avans-DH12-test\bin\Debug\Avans-DH12.exe
+c:\users\bobva\documents\visual studio 2015\Projects\Avans-DH12\Avans-DH12-test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\bobva\documents\visual studio 2015\Projects\Avans-DH12\Avans-DH12-test\bin\Debug\Avans-DH12.pdb
+c:\users\bobva\documents\visual studio 2015\Projects\Avans-DH12\Avans-DH12-test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+c:\users\bobva\documents\visual studio 2015\Projects\Avans-DH12\Avans-DH12-test\obj\Debug\Avans-DH12-test.csprojResolveAssemblyReference.cache
+c:\users\bobva\documents\visual studio 2015\Projects\Avans-DH12\Avans-DH12-test\obj\Debug\Avans-DH12-test.dll
+c:\users\bobva\documents\visual studio 2015\Projects\Avans-DH12\Avans-DH12-test\obj\Debug\Avans-DH12-test.pdb
