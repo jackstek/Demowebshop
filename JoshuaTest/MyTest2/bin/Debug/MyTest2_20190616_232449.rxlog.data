@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="df24bcc5a0dc790"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Joshua"
+		rxversion="9.1.0.0"
+		host="JOSHUA-DESKTOP-"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="16-Jun-19 23:24:49"
+		timestampiso="2019-06-16T21:24:49"
+		endtime="16-Jun-19 23:24:52"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="00:03.523"
+			timeWallClock="23:24:52"
+			time="00:00.000"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				Failed to load default plugins. Please reinstall Ranorex. Failed to load plugins from assembly 'Ranorex.Plugin.RawText, Version=9.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a'. Thread was being aborted.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.PluginManager.LoadDefaultPlugins(Boolean nonBlocking)
+   at Ranorex.Core.PluginManager.LoadDefaultPluginsSuppressible(Boolean nonBlocking)
+   at Ranorex.Core.ElementEngine.get_Instance()
+   at Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

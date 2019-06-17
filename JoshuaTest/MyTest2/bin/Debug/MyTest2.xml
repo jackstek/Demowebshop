@@ -1,0 +1,545 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyTest2</name>
+    </assembly>
+    <members>
+        <member name="T:MyTest2.AddItemsToCart">
+             <summary>
+            The AddItemsToCart recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.AddItemsToCart.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.AddItemsToCart.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest2.AddItemsToCart.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest2.AddItemsToCart.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.AddItemsToCart.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.AddItemsToCart.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.AddItemsToCart.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest2.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest2.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest2.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest2.EmptyCart">
+             <summary>
+            The EmptyCart recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.EmptyCart.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.EmptyCart.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest2.EmptyCart.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest2.EmptyCart.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.EmptyCart.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.EmptyCart.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.EmptyCart.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest2.Logout">
+             <summary>
+            The Logout recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.Logout.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Logout.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Logout.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Logout.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.Logout.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Logout.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.Logout.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest2.MyTest2Repository">
+            <summary>
+            The class representing the MyTest2Repository element repository.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MyTest2Repository element repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.MyTest2Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="T:MyTest2.MyTest2RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:MyTest2.MyTest2RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest2.MyTest2RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ApplicationUnderTestAppFolder.Login">
+            <summary>
+            The Login folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ApplicationUnderTestAppFolder.Logout">
+            <summary>
+            The Logout folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ApplicationUnderTestAppFolder.AddToCart">
+            <summary>
+            The AddToCart folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ApplicationUnderTestAppFolder.Cart">
+            <summary>
+            The Cart folder.
+            </summary>
+        </member>
+        <member name="T:MyTest2.MyTest2RepositoryFolders.LoginFolder">
+            <summary>
+            The LoginFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest2.MyTest2RepositoryFolders.LoginFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Login  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.LoginFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.LoginFolder.LoginButton">
+            <summary>
+            The LoginButton item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.LoginFolder.LoginButtonInfo">
+            <summary>
+            The LoginButton item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.LoginFolder.LoginFormEmail">
+            <summary>
+            The LoginFormEmail item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.LoginFolder.LoginFormEmailInfo">
+            <summary>
+            The LoginFormEmail item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.LoginFolder.LoginFormPassword">
+            <summary>
+            The LoginFormPassword item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.LoginFolder.LoginFormPasswordInfo">
+            <summary>
+            The LoginFormPassword item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.LoginFolder.LoginFormButton">
+            <summary>
+            The LoginFormButton item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.LoginFolder.LoginFormButtonInfo">
+            <summary>
+            The LoginFormButton item info.
+            </summary>
+        </member>
+        <member name="T:MyTest2.MyTest2RepositoryFolders.LogoutFolder">
+            <summary>
+            The LogoutFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest2.MyTest2RepositoryFolders.LogoutFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Logout  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.LogoutFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.LogoutFolder.LogoutButton">
+            <summary>
+            The LogoutButton item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.LogoutFolder.LogoutButtonInfo">
+            <summary>
+            The LogoutButton item info.
+            </summary>
+        </member>
+        <member name="T:MyTest2.MyTest2RepositoryFolders.AddToCartFolder">
+            <summary>
+            The AddToCartFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest2.MyTest2RepositoryFolders.AddToCartFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AddToCart  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.AddToCartFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.AddToCartFolder.SmartphoneAddtoCart">
+            <summary>
+            The SmartphoneAddtoCart item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.AddToCartFolder.SmartphoneAddtoCartInfo">
+            <summary>
+            The SmartphoneAddtoCart item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.AddToCartFolder.Electronics">
+            <summary>
+            The Electronics item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.AddToCartFolder.ElectronicsInfo">
+            <summary>
+            The Electronics item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.AddToCartFolder.CellPhones">
+            <summary>
+            The CellPhones item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.AddToCartFolder.CellPhonesInfo">
+            <summary>
+            The CellPhones item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.AddToCartFolder.ApparelShoes">
+            <summary>
+            The ApparelShoes item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.AddToCartFolder.ApparelShoesInfo">
+            <summary>
+            The ApparelShoes item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.AddToCartFolder.BlueJeansAdd">
+            <summary>
+            The BlueJeansAdd item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.AddToCartFolder.BlueJeansAddInfo">
+            <summary>
+            The BlueJeansAdd item info.
+            </summary>
+        </member>
+        <member name="T:MyTest2.MyTest2RepositoryFolders.CartFolder">
+            <summary>
+            The CartFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest2.MyTest2RepositoryFolders.CartFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Cart  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CartFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CartFolder.OrderTotal">
+            <summary>
+            The OrderTotal item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CartFolder.OrderTotalInfo">
+            <summary>
+            The OrderTotal item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CartFolder.OpenCartButton">
+            <summary>
+            The OpenCartButton item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CartFolder.OpenCartButtonInfo">
+            <summary>
+            The OpenCartButton item info.
+            </summary>
+        </member>
+        <member name="T:MyTest2.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest2.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest2.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest2.Login">
+             <summary>
+            The Login recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.Login.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest2.VerifyPrice">
+             <summary>
+            The VerifyPrice recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.VerifyPrice.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.VerifyPrice.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest2.VerifyPrice.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest2.VerifyPrice.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.VerifyPrice.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.VerifyPrice.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.VerifyPrice.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

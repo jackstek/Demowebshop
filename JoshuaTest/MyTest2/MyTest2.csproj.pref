@@ -1,0 +1,17 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="EmptyCart.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="AddItemsToCart.rxrec" />
+    <Element value="MyTest2.rxtst" />
+    <Element value="Logout.rxrec" />
+    <Element value="Login.rxrec" />
+    <Element value="OpenBrowser.rxrec" />
+    <Element value="EmptyCart.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

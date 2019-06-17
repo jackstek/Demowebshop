@@ -1,0 +1,174 @@
+﻿<repository
+id="77180432-3b83-46d3-bc94-820a1d913405"
+name="MyTest2Repository">
+	<codegen
+	classname="MyTest2Repository"
+	namespace="MyTest2">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="4b61ace8-1c0b-42d0-aa0e-e434e3b434c7"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="4321fc42-1529-45e4-8e38-ee330e788188"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			capname="unknown"
+			id="a1ffd7df-945f-4243-a852-ad266cb05585"
+			isrooted="False"
+			name="Login"
+			searchtimeout="0ms">
+				<item
+				capname="atag"
+				id="c167aa00-256b-49c4-8858-4ed1697f4560"
+				name="LoginButton"
+				searchtimeout="30000ms">
+					/dom[@domain='demowebshop.tricentis.com']//a[@class='ico-login']
+				</item>
+				<item
+				capname="inputtag"
+				id="33aa5c7a-9e88-40cf-bed7-9ce307f7f561"
+				name="LoginFormEmail"
+				searchtimeout="30000ms">
+					/dom[@domain='demowebshop.tricentis.com']//input[#'Email']
+				</item>
+				<item
+				capname="inputtag"
+				id="48dbe36c-af0d-4cbd-a51c-a8818e84b95a"
+				name="LoginFormPassword"
+				searchtimeout="30000ms">
+					/dom[@domain='demowebshop.tricentis.com']//input[#'Password']
+				</item>
+				<item
+				capname="inputtag"
+				id="12604952-c5b9-4dc7-9e9c-56e895d9a1db"
+				name="LoginFormButton"
+				refimgid="c84f9c09-31e2-40fa-9247-00579e61c3de"
+				searchtimeout="30000ms">
+					/dom[@domain='demowebshop.tricentis.com']//div[@class='buttons']/input[@type='submit']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="6f53c7fc-acc7-46dd-9757-d539e65ec90a"
+			isrooted="False"
+			name="Logout"
+			searchtimeout="0ms">
+				<item
+				capname="atag"
+				id="50ff0ee3-6f2a-47bf-bfbe-b28c552a4f53"
+				name="LogoutButton"
+				searchtimeout="30000ms">
+					/dom[@domain='demowebshop.tricentis.com']//a[@class='ico-logout']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="28b55247-aa5f-4d42-8ca3-c8d7492d46f6"
+			isrooted="False"
+			name="AddToCart"
+			searchtimeout="0ms">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="1d6faa93-df45-4f1e-8bc1-b73cbb8e03de"
+				name="SmartphoneAddtoCart"
+				refimgid="a913ea3d-e89e-4995-af4a-8ce7778ec93a"
+				refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[2]/div[2]/div[2]/div[3]/div[1]/div/div[2]/div[3]/div[2]/input[@type='button']"
+				searchtimeout="30000ms">
+					/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[2]/div[2]/div[2]/div[3]/div[1]/div/div[2]/div[3]/?/?/input[@type='button']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="d95a8b08-c4c0-4462-9c14-44d289b1635d"
+				name="Electronics"
+				refimgid="75eee834-5289-4c7f-abf6-49ad85f267db"
+				refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[1]/div[1]/div[2]/ul/li[3]/a[@innertext='Electronics        ']"
+				searchtimeout="30000ms">
+					/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//ul/li[3]/a[@innertext='Electronics        ']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="62a66e9e-70b3-4f60-a22d-702435e138e4"
+				name="CellPhones"
+				refimgid="bbf78a38-e12d-445f-8aeb-662609edcb40"
+				refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[1]/div[1]/div[2]/ul/li[3]/ul/li[2]/a[@innertext='Cell phones        ']"
+				searchtimeout="30000ms">
+					/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[1]/div[1]/div[2]/ul/li[3]/ul/?/?/a[@innertext='Cell phones        ']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="c7c7e853-b316-419b-89f4-7d4cede3b978"
+				name="ApparelShoes"
+				refimgid="90e368b9-d734-4bbb-af2c-0fed2fe1e84e"
+				refpath="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[1]/div[1]/div[2]/ul/li[4]/a[@innertext='Apparel &amp; Shoes        ']"
+				searchtimeout="30000ms">
+					/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//ul/li[4]/a[@innertext='Apparel &amp; Shoes        ']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="3409f154-a11f-4f96-a46e-4462aa7878fb"
+				name="BlueJeansAdd"
+				refimgid="0a8ee32b-a1f1-485e-8c25-27b1fc4bf825"
+				searchtimeout="30000ms">
+					/dom[@domain='demowebshop.tricentis.com']//input[@onclick='AjaxCart.addproducttocart_catalog(''/addproducttocart/catalog/36/1/1    '');return false;']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="f4aa185c-ea79-4da9-96ba-400c4f0fbf9d"
+			isrooted="False"
+			name="Cart"
+			searchtimeout="0ms">
+				<item
+				capname="strongtag"
+				id="c817c279-9558-4ef6-b5e7-3304980f35a6"
+				name="OrderTotal"
+				searchtimeout="30000ms">
+					/dom[@domain='demowebshop.tricentis.com']//span[@class='product-price order-total']/strong
+				</item>
+				<item
+				capname="atag"
+				id="8556af59-f76b-4e79-8c7d-963025b3eb35"
+				name="OpenCartButton"
+				searchtimeout="30000ms">
+					/dom[@domain='demowebshop.tricentis.com']//a[@class='ico-cart']
+				</item>
+			</folder>
+			<basepath>
+				/dom[@domain='demowebshop.tricentis.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

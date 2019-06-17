@@ -1,0 +1,1000 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="35db582158d4a9bf"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Joshua"
+		rxversion="9.1.0.0"
+		host="JOSHUA-DESKTOP-"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="17-Jun-19 22:27:15"
+		timestampiso="2019-06-17T20:27:15"
+		endtime="17-Jun-19 22:27:34"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="16.09s"
+			durationms="16088"
+			type="test-suite"
+			rid="120bef623e3ba86e"
+			totalerrorcount="1"
+			totalwarningcount="2"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="MyTest2"
+			headertext="MyTest2"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="16.07s"
+				durationms="16073"
+				type="test-case"
+				rid="17476bd11c238b44"
+				totalerrorcount="1"
+				totalwarningcount="2"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="4"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="c798af94-2d50-4731-aa72-fed491375143"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="421ms"
+					durationms="421"
+					type="setup-container"
+					rid="ea7288b8ac6bc82"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="406ms"
+						durationms="406"
+						type="test-module"
+						rid="4222b1858effd56"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="OpenBrowser"
+						displayName="OpenBrowser"
+						moduleid="9328b976-6b5a-4e79-9bc2-a845271b2565"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.040"
+							timeRelativeToTestModuleStartTime="00:00.011"
+							timeWallClock="22:27:18"
+							time="00:00.040"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'http://demowebshop.tricentis.com/' with browser 'chrome' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\OpenBrowser.cs"
+								codeline="82"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="5.61s"
+					durationms="5608"
+					type="test-module"
+					rid="2b38e7ab9c5fab0c"
+					totalerrorcount="0"
+					totalwarningcount="2"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Login"
+					displayName="Login"
+					moduleid="05bc9787-35d6-4393-9435-a8f9644c37e3"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.439"
+						timeRelativeToTestModuleStartTime="00:00.001"
+						timeWallClock="22:27:19"
+						time="00:00.439"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.Login.LoginButton' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']//a[@class='ico-login']"
+							itempath=".//a[@class='ico-login']"
+							fullname="MyTest2Repository.ApplicationUnderTest.Login.LoginButton"
+							id="c167aa00256b49c488584ed1697f4560"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Login.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.396"
+						timeRelativeToTestModuleStartTime="00:01.958"
+						timeWallClock="22:27:21"
+						time="00:02.396"
+						level="Warn"
+						category="Qt">
+						<message>
+							Ranorex can&#8217;t identify UI elements in your Qt AUT because it couldn&#8217;t instrument it automatically. Start Ranorex Studio and the AUT with the same privileges, preferably as an administrator, and ensure your Qt version is supported.<br/>Process: 'Telegram' (pid 20472)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/qt-testing/<br/>(This message is only shown once per report.)
+						</message>
+						<metainfo
+							limitationName="QtWindow"
+							showInProgressDialog="False"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.595"
+						timeRelativeToTestModuleStartTime="00:02.157"
+						timeWallClock="22:27:21"
+						time="00:02.595"
+						level="Warn"
+						category="delphi">
+						<message>
+							Delphi version not supported
+
+Technology: Vcl, Compiler version: XEAndBelow<br/>(This message is only shown once per report.)
+						</message>
+						<metainfo
+							limitationName="delphiLimitation"
+							showInProgressDialog="False"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.478"
+						timeRelativeToTestModuleStartTime="00:03.040"
+						timeWallClock="22:27:22"
+						time="00:03.478"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'joshua@avans.nl' with focus on 'ApplicationUnderTest.Login.LoginFormEmail'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']//input[#'Email']"
+							itempath=".//input[#'Email']"
+							fullname="MyTest2Repository.ApplicationUnderTest.Login.LoginFormEmail"
+							id="33aa5c7a9e8840cfbed79ce307f7f561"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Login.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.589"
+						timeRelativeToTestModuleStartTime="00:04.151"
+						timeWallClock="22:27:23"
+						time="00:04.589"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'defaultdefault' with focus on 'ApplicationUnderTest.Login.LoginFormPassword'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']//input[#'Password']"
+							itempath=".//input[#'Password']"
+							fullname="MyTest2Repository.ApplicationUnderTest.Login.LoginFormPassword"
+							id="48dbe36caf0d4cbda51ca8818e84b95a"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Login.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.362"
+						timeRelativeToTestModuleStartTime="00:04.924"
+						timeWallClock="22:27:24"
+						time="00:05.362"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.Login.LoginFormButton' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']//div[@class='buttons']/input[@type='submit']"
+							itempath=".//div[@class='buttons']/input[@type='submit']"
+							fullname="MyTest2Repository.ApplicationUnderTest.Login.LoginFormButton"
+							id="12604952c5b94dc79e9c56e895d9a1db"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Login.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="7.42s"
+					durationms="7415"
+					type="test-module"
+					rid="2d91405518c84b38"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="AddItemsToCart"
+					displayName="AddItemsToCart"
+					moduleid="505fbd10-0a46-4e01-b5a0-228e38622f1b"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.048"
+						timeRelativeToTestModuleStartTime="00:00.001"
+						timeWallClock="22:27:24"
+						time="00:06.048"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 300ms.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\AddItemsToCart.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.380"
+						timeRelativeToTestModuleStartTime="00:00.334"
+						timeWallClock="22:27:25"
+						time="00:06.380"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'ApplicationUnderTest.AddToCart.Electronics'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//ul/li[3]/a[@innertext='Electronics        ']"
+							itempath="body/div[4]/div[1]/div[4]//ul/li[3]/a[@innertext='Electronics        ']"
+							fullname="MyTest2Repository.ApplicationUnderTest.AddToCart.Electronics"
+							id="d95a8b08c4c044629c1444d289b1635d"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\AddItemsToCart.cs"
+							codeline="85"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.749"
+						timeRelativeToTestModuleStartTime="00:00.703"
+						timeWallClock="22:27:25"
+						time="00:06.749"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'Electronics' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//ul/li[3]/a[@innertext='Electronics        ']"
+							itempath="body/div[4]/div[1]/div[4]//ul/li[3]/a[@innertext='Electronics        ']"
+							fullname="MyTest2Repository.ApplicationUnderTest.AddToCart.Electronics"
+							id="d95a8b08c4c044629c1444d289b1635d"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\AddItemsToCart.cs"
+							codeline="86"
+							loglvl="Success"
+							itemindex="1">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.774"
+						timeRelativeToTestModuleStartTime="00:00.728"
+						timeWallClock="22:27:25"
+						time="00:06.774"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.AddToCart.Electronics' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//ul/li[3]/a[@innertext='Electronics        ']"
+							itempath="body/div[4]/div[1]/div[4]//ul/li[3]/a[@innertext='Electronics        ']"
+							fullname="MyTest2Repository.ApplicationUnderTest.AddToCart.Electronics"
+							id="d95a8b08c4c044629c1444d289b1635d"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\AddItemsToCart.cs"
+							codeline="89"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.461"
+						timeRelativeToTestModuleStartTime="00:01.415"
+						timeWallClock="22:27:26"
+						time="00:07.461"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'ApplicationUnderTest.AddToCart.CellPhones'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[1]/div[1]/div[2]/ul/li[3]/ul/?/?/a[@innertext='Cell phones        ']"
+							itempath="body/div[4]/div[1]/div[4]/div[1]/div[1]/div[2]/ul/li[3]/ul/?/?/a[@innertext='Cell phones        ']"
+							fullname="MyTest2Repository.ApplicationUnderTest.AddToCart.CellPhones"
+							id="62a66e9e70b34f60a22d702435e138e4"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\AddItemsToCart.cs"
+							codeline="93"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.058"
+						timeRelativeToTestModuleStartTime="00:02.012"
+						timeWallClock="22:27:26"
+						time="00:08.058"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'CellPhones' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[1]/div[1]/div[2]/ul/li[3]/ul/?/?/a[@innertext='Cell phones        ']"
+							itempath="body/div[4]/div[1]/div[4]/div[1]/div[1]/div[2]/ul/li[3]/ul/?/?/a[@innertext='Cell phones        ']"
+							fullname="MyTest2Repository.ApplicationUnderTest.AddToCart.CellPhones"
+							id="62a66e9e70b34f60a22d702435e138e4"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\AddItemsToCart.cs"
+							codeline="94"
+							loglvl="Success"
+							itemindex="3">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.095"
+						timeRelativeToTestModuleStartTime="00:02.049"
+						timeWallClock="22:27:26"
+						time="00:08.095"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 300ms.
+						</message>
+						<metainfo
+							itemindex="4"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\AddItemsToCart.cs"
+							codeline="97"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.434"
+						timeRelativeToTestModuleStartTime="00:02.388"
+						timeWallClock="22:27:27"
+						time="00:08.434"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.AddToCart.CellPhones' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[1]/div[1]/div[2]/ul/li[3]/ul/?/?/a[@innertext='Cell phones        ']"
+							itempath="body/div[4]/div[1]/div[4]/div[1]/div[1]/div[2]/ul/li[3]/ul/?/?/a[@innertext='Cell phones        ']"
+							fullname="MyTest2Repository.ApplicationUnderTest.AddToCart.CellPhones"
+							id="62a66e9e70b34f60a22d702435e138e4"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\AddItemsToCart.cs"
+							codeline="100"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.095"
+						timeRelativeToTestModuleStartTime="00:03.049"
+						timeWallClock="22:27:27"
+						time="00:09.095"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'ApplicationUnderTest.AddToCart.SmartphoneAddtoCart'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[2]/div[2]/div[2]/div[3]/div[1]/div/div[2]/div[3]/?/?/input[@type='button']"
+							itempath="body/div[4]/div[1]/div[4]/div[2]/div[2]/div[2]/div[3]/div[1]/div/div[2]/div[3]/?/?/input[@type='button']"
+							fullname="MyTest2Repository.ApplicationUnderTest.AddToCart.SmartphoneAddtoCart"
+							id="1d6faa93df454f1e8bc1b73cbb8e03de"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\AddItemsToCart.cs"
+							codeline="104"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.682"
+						timeRelativeToTestModuleStartTime="00:03.636"
+						timeWallClock="22:27:28"
+						time="00:09.682"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'SmartphoneAddtoCart' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[2]/div[2]/div[2]/div[3]/div[1]/div/div[2]/div[3]/?/?/input[@type='button']"
+							itempath="body/div[4]/div[1]/div[4]/div[2]/div[2]/div[2]/div[3]/div[1]/div/div[2]/div[3]/?/?/input[@type='button']"
+							fullname="MyTest2Repository.ApplicationUnderTest.AddToCart.SmartphoneAddtoCart"
+							id="1d6faa93df454f1e8bc1b73cbb8e03de"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\AddItemsToCart.cs"
+							codeline="105"
+							loglvl="Success"
+							itemindex="6">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.711"
+						timeRelativeToTestModuleStartTime="00:03.665"
+						timeWallClock="22:27:28"
+						time="00:09.711"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 300ms.
+						</message>
+						<metainfo
+							itemindex="7"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\AddItemsToCart.cs"
+							codeline="108"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.041"
+						timeRelativeToTestModuleStartTime="00:03.995"
+						timeWallClock="22:27:28"
+						time="00:10.041"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.AddToCart.SmartphoneAddtoCart' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]/div[2]/div[2]/div[2]/div[3]/div[1]/div/div[2]/div[3]/?/?/input[@type='button']"
+							itempath="body/div[4]/div[1]/div[4]/div[2]/div[2]/div[2]/div[3]/div[1]/div/div[2]/div[3]/?/?/input[@type='button']"
+							fullname="MyTest2Repository.ApplicationUnderTest.AddToCart.SmartphoneAddtoCart"
+							id="1d6faa93df454f1e8bc1b73cbb8e03de"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\AddItemsToCart.cs"
+							codeline="111"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.713"
+						timeRelativeToTestModuleStartTime="00:04.667"
+						timeWallClock="22:27:29"
+						time="00:10.713"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 300ms.
+						</message>
+						<metainfo
+							itemindex="9"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\AddItemsToCart.cs"
+							codeline="115"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.048"
+						timeRelativeToTestModuleStartTime="00:05.002"
+						timeWallClock="22:27:29"
+						time="00:11.048"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'ApplicationUnderTest.AddToCart.ApparelShoes'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//ul/li[4]/a[@innertext='Apparel &amp; Shoes        ']"
+							itempath="body/div[4]/div[1]/div[4]//ul/li[4]/a[@innertext='Apparel &amp; Shoes        ']"
+							fullname="MyTest2Repository.ApplicationUnderTest.AddToCart.ApparelShoes"
+							id="c7c7e853b316419b89f47d4cede3b978"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\AddItemsToCart.cs"
+							codeline="118"
+							itemindex="10"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.356"
+						timeRelativeToTestModuleStartTime="00:05.310"
+						timeWallClock="22:27:30"
+						time="00:11.356"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'ApparelShoes' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//ul/li[4]/a[@innertext='Apparel &amp; Shoes        ']"
+							itempath="body/div[4]/div[1]/div[4]//ul/li[4]/a[@innertext='Apparel &amp; Shoes        ']"
+							fullname="MyTest2Repository.ApplicationUnderTest.AddToCart.ApparelShoes"
+							id="c7c7e853b316419b89f47d4cede3b978"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\AddItemsToCart.cs"
+							codeline="119"
+							loglvl="Success"
+							itemindex="10">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.403"
+						timeRelativeToTestModuleStartTime="00:05.357"
+						timeWallClock="22:27:30"
+						time="00:11.403"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.AddToCart.ApparelShoes' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']/body/div[4]/div[1]/div[4]//ul/li[4]/a[@innertext='Apparel &amp; Shoes        ']"
+							itempath="body/div[4]/div[1]/div[4]//ul/li[4]/a[@innertext='Apparel &amp; Shoes        ']"
+							fullname="MyTest2Repository.ApplicationUnderTest.AddToCart.ApparelShoes"
+							id="c7c7e853b316419b89f47d4cede3b978"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\AddItemsToCart.cs"
+							codeline="122"
+							itemindex="11"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.112"
+						timeRelativeToTestModuleStartTime="00:06.065"
+						timeWallClock="22:27:30"
+						time="00:12.112"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 300ms.
+						</message>
+						<metainfo
+							itemindex="12"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\AddItemsToCart.cs"
+							codeline="126"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.454"
+						timeRelativeToTestModuleStartTime="00:06.408"
+						timeWallClock="22:27:31"
+						time="00:12.454"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'ApplicationUnderTest.AddToCart.BlueJeansAdd'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']//input[@onclick='AjaxCart.addproducttocart_catalog(''/addproducttocart/catalog/36/1/1    '');return false;']"
+							itempath=".//input[@onclick='AjaxCart.addproducttocart_catalog(''/addproducttocart/catalog/36/1/1    '');return false;']"
+							fullname="MyTest2Repository.ApplicationUnderTest.AddToCart.BlueJeansAdd"
+							id="3409f154a11f4f96a46e4462aa7878fb"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\AddItemsToCart.cs"
+							codeline="129"
+							itemindex="13"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.750"
+						timeRelativeToTestModuleStartTime="00:06.704"
+						timeWallClock="22:27:31"
+						time="00:12.750"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'BlueJeansAdd' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']//input[@onclick='AjaxCart.addproducttocart_catalog(''/addproducttocart/catalog/36/1/1    '');return false;']"
+							itempath=".//input[@onclick='AjaxCart.addproducttocart_catalog(''/addproducttocart/catalog/36/1/1    '');return false;']"
+							fullname="MyTest2Repository.ApplicationUnderTest.AddToCart.BlueJeansAdd"
+							id="3409f154a11f4f96a46e4462aa7878fb"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\AddItemsToCart.cs"
+							codeline="130"
+							loglvl="Success"
+							itemindex="13">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.778"
+						timeRelativeToTestModuleStartTime="00:06.732"
+						timeWallClock="22:27:31"
+						time="00:12.778"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.AddToCart.BlueJeansAdd' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']//input[@onclick='AjaxCart.addproducttocart_catalog(''/addproducttocart/catalog/36/1/1    '');return false;']"
+							itempath=".//input[@onclick='AjaxCart.addproducttocart_catalog(''/addproducttocart/catalog/36/1/1    '');return false;']"
+							fullname="MyTest2Repository.ApplicationUnderTest.AddToCart.BlueJeansAdd"
+							id="3409f154a11f4f96a46e4462aa7878fb"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\AddItemsToCart.cs"
+							codeline="133"
+							itemindex="14"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Failed"
+					duration="2.43s"
+					durationms="2429"
+					type="test-module"
+					rid="570b23d12d0507a"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="VerifyPrice"
+					displayName="VerifyPrice"
+					moduleid="49431357-a5e4-4bef-920c-08f75c42e078"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Attribute 'Text' of element for item 'MyTest2Repository.ApplicationUnderTest.Cart.OrderTotal' does not match the specified value (actual='(null)', expected='yourtext').
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.463"
+						timeRelativeToTestModuleStartTime="00:00.001"
+						timeWallClock="22:27:32"
+						time="00:13.463"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 300ms.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\VerifyPrice.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.802"
+						timeRelativeToTestModuleStartTime="00:00.339"
+						timeWallClock="22:27:32"
+						time="00:13.802"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.Cart.OpenCartButton' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']//a[@class='ico-cart']"
+							itempath=".//a[@class='ico-cart']"
+							fullname="MyTest2Repository.ApplicationUnderTest.Cart.OpenCartButton"
+							id="8556af59f76b4e798c7d963025b3eb35"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\VerifyPrice.cs"
+							codeline="85"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.478"
+						timeRelativeToTestModuleStartTime="00:01.015"
+						timeWallClock="22:27:33"
+						time="00:14.478"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 300ms.
+						</message>
+						<metainfo
+							itemindex="2"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\VerifyPrice.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.822"
+						timeRelativeToTestModuleStartTime="00:01.359"
+						timeWallClock="22:27:33"
+						time="00:14.822"
+						level="Info"
+						category="Validation"
+						errimg="images_MyTest2__799b40c4\MyTest2__799b40c4_28695587_trace.jpg"
+						errthumb="images_MyTest2__799b40c4\MyTest2__799b40c4_28695587_trace_thumb.jpg">
+						<message>
+							Validating AttributeEqual (Text='yourtext') on item 'ApplicationUnderTest.Cart.OrderTotal'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']//span[@class='product-price order-total']/strong"
+							itempath=".//span[@class='product-price order-total']/strong"
+							fullname="MyTest2Repository.ApplicationUnderTest.Cart.OrderTotal"
+							id="c817c27995584ef6b5e73304980f35a6"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\VerifyPrice.cs"
+							codeline="92"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.778"
+						timeRelativeToTestModuleStartTime="00:02.315"
+						timeWallClock="22:27:34"
+						time="00:15.778"
+						level="Failure"
+						category="Validation"
+						errimg="images_MyTest2__799b40c4\MyTest2__799b40c4_b64a8f54_trace.jpg"
+						errthumb="images_MyTest2__799b40c4\MyTest2__799b40c4_b64a8f54_trace_thumb.jpg">
+						<message>
+							Attribute 'Text' of element for item 'MyTest2Repository.ApplicationUnderTest.Cart.OrderTotal' does not match the specified value (actual='(null)', expected='yourtext').
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']//span[@class='product-price order-total']/strong"
+							itempath=".//span[@class='product-price order-total']/strong"
+							fullname="MyTest2Repository.ApplicationUnderTest.Cart.OrderTotal"
+							id="c817c27995584ef6b5e73304980f35a6"
+							timeout="60000"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\VerifyPrice.cs"
+							codeline="93"
+							loglvl="Failure"
+							itemindex="3">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.813"
+						timeRelativeToTestModuleStartTime="00:02.350"
+						timeWallClock="22:27:34"
+						time="00:15.813"
+						level="Error"
+						category="Module"
+						errimg="images_MyTest2__799b40c4\MyTest2__799b40c4_9161bdac_trace.jpg"
+						errthumb="images_MyTest2__799b40c4\MyTest2__799b40c4_9161bdac_trace_thumb.jpg">
+						<message>
+							Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'MyTest2Repository.ApplicationUnderTest.Cart.OrderTotal' does not match the specified value (actual='(null)', expected='yourtext').
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)&#13;&#10;   at Ranorex.Validate.ReportOrThrowIfFailed(String errorReason, String message, String matchName, Object actualValue, Object matchValue, IElement element, RepoItemInfo itemInfo, Options options, RanorexException innerException)&#13;&#10;   at Ranorex.Validate.AttributeCompareImpl(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.&lt;>c__DisplayClass39_0.&lt;Execute>g__attCompare|0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleValidateAttribute[T](Func`1 action, IAttributeValidation attributeValidation)&#13;&#10;   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)&#13;&#10;   at MyTest2.VerifyPrice.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\VerifyPrice.cs:line 93&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\VerifyPrice.cs"
+							codeline="93"
+							type="repoitem"
+							path="/dom[@domain='demowebshop.tricentis.com']//span[@class='product-price order-total']/strong"
+							itempath=".//span[@class='product-price order-total']/strong"
+							fullname="MyTest2Repository.ApplicationUnderTest.Cart.OrderTotal"
+							id="c817c27995584ef6b5e73304980f35a6"
+							timeout="60000"
+							loglvl="Error"
+							itemindex="3">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="192ms"
+					durationms="192"
+					type="teardown-container"
+					rid="154ffb321239a18"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="191ms"
+						durationms="191"
+						type="test-module"
+						rid="10e2971a6400d39b"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="CloseBrowser"
+						displayName="CloseBrowser"
+						moduleid="d464e4ee-8b82-4b89-b556-fe5fc9d02b85"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.894"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="22:27:34"
+							time="00:15.894"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application containing item 'ApplicationUnderTest'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='demowebshop.tricentis.com']"
+								itempath="/dom[@domain='demowebshop.tricentis.com']"
+								fullname="MyTest2Repository.ApplicationUnderTest.Self"
+								id="4321fc42152945e48e38ee330e788188"
+								timeout="30000"
+								codefile="C:\Users\Joshua\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\CloseBrowser.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>
